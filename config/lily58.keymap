@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 
 / {
@@ -64,11 +63,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans    &trans  &trans    &trans          &trans                                                  &trans           &trans       &trans        &trans         &trans           &trans
-&trans  &mkp MB1  &trans  &mkp MB2  &trans          &trans                                                  &kp PAGE_UP      &trans       &kp UP_ARROW  &kp END        &kp PRINTSCREEN  &trans
-&trans  &trans    &trans  &trans    &trans          &kp K_PLAY_PAUSE                                        &kp PAGE_DOWN    &kp LEFT     &kp DOWN      &kp RIGHT      &kp K_SLEEP      &trans
-&trans  &trans    &trans  &trans    &kp K_PREVIOUS  &kp K_NEXT        &kp K_VOLUME_DOWN    &kp K_VOLUME_UP  &kp LC(LS(TAB))  &kt LC(TAB)  &kp LA(LEFT)  &kp LA(RIGHT)  &trans           &trans
-                          &trans    &trans          &trans            &trans               &trans           &kp LA(TAB)      &trans       &trans
+&trans  &trans    &trans  &trans    &trans          &trans                                                  &trans         &trans    &trans        &trans         &trans           &trans
+&trans  &mkp MB1  &trans  &mkp MB2  &trans          &trans                                                  &kp PAGE_UP    &trans    &kp UP_ARROW  &kp END        &kp PRINTSCREEN  &trans
+&trans  &trans    &trans  &trans    &trans          &kp K_PLAY_PAUSE                                        &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT      &kp K_SLEEP      &trans
+&trans  &trans    &trans  &trans    &kp K_PREVIOUS  &kp K_NEXT        &kp K_VOLUME_DOWN    &kp K_VOLUME_UP  &trans         &trans    &kp LA(LEFT)  &kp LA(RIGHT)  &trans           &trans
+                          &trans    &trans          &trans            &trans               &trans           &trans         &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
