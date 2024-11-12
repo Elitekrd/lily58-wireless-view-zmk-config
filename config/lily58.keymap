@@ -87,11 +87,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                                &trans         &trans            &trans        &trans           &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                &kp PAGE_UP    &BrowserBackward  &kp UP_ARROW  &BrowserForward  &kp PRINTSCREEN  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                &kp PAGE_DOWN  &kp LEFT          &kp DOWN      &kp RIGHT        &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp C_BRIGHTNESS_DEC    &kp C_BRIGHTNESS_INC  &trans         &trans            &kp LA(LEFT)  &kp LA(RIGHT)    &trans           &trans
-                        &trans  &trans  &trans  &trans                  &trans                &trans         &trans            &trans
+&trans  &trans                  &trans  &trans                   &trans  &trans                                                &trans         &trans            &trans        &trans           &trans           &trans
+&trans  &trans                  &trans  &trans                   &trans  &trans                                                &kp PAGE_UP    &BrowserBackward  &kp UP_ARROW  &BrowserForward  &kp PRINTSCREEN  &trans
+&trans  &kp LC(LG(LEFT_ARROW))  &trans  &kp LC(LG(RIGHT_ARROW))  &trans  &trans                                                &kp PAGE_DOWN  &kp LEFT          &kp DOWN      &kp RIGHT        &trans           &trans
+&trans  &trans                  &trans  &trans                   &trans  &trans  &kp C_BRIGHTNESS_DEC    &kp C_BRIGHTNESS_INC  &trans         &trans            &kp LA(LEFT)  &kp LA(RIGHT)    &trans           &trans
+                                        &trans                   &trans  &trans  &trans                  &trans                &trans         &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
